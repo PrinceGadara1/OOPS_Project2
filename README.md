@@ -14,13 +14,13 @@ The project is modular and extendable, making it an excellent foundation for lea
 
 ## 📌 Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#-introduction)
 - [Installation](#installation)
-- [Features](#features)
+- [Features](#-features)
 - [How the Game Works](#how-the-game-works)
-- [How to Play](#how-to-play)
-- [Compilation and Execution](#compilation-and-execution)
-- [Future Improvements](#future-improvements)
+- [How to Play](#-how-to-play)
+- [Compilation and Execution](#-compilation-and-execution)
+- [Future Improvements](#-future-improvements)
 - [Creators](#creators)
 
 ---
@@ -60,7 +60,7 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 - **Game Over Detection** 🚨: Ends when blocks reach the top.
 - **Real-time Controls** 🎯: Move left, right, down, and rotate.
 - **Scoring System** 🏆: Earn points for clearing lines.
-- **Colorful Tetrominoes with Unicode Emojis** 🟦🟨🟪🟩🟥🟧🟫
+- **Colorful Tetrominoes with Unicode Emojis** 🟦🟨🟪🟩🟥🟫🟧
 - **Smooth Console Rendering** 🖥️: Prevents flickering.
 - **Restart Option** 🔁: Play again after game over.
 
