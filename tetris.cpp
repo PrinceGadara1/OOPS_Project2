@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int dropSpeed = 1000, maxx = 0;
+int ropSpeed = 1000, maxx = 0;
 const int WIDTH = 15;
 const int HEIGHT = 20;
 
