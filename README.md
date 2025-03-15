@@ -14,14 +14,14 @@ The project is modular and extendable, making it an excellent foundation for lea
 
 ## 📌 Table of Contents
 
-- [Introduction](#-introduction)
-- [Installation](#-installation)
-- [Features](#-features)
-- [How the Game Works](#-how-the-game-works)
-- [How to Play](#-how-to-play)
-- [Compilation and Execution](#-compilation-and-execution)
-- [Future Improvements](#-future-improvements)
-- [Creators](#-creators)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Features](#features)
+- [How the Game Works](#how-the-game-works)
+- [How to Play](#how-to-play)
+- [Compilation and Execution](#compilation-and-execution)
+- [Future Improvements](#future-improvements)
+- [Creators](#creators)
 
 ---
 
@@ -71,11 +71,11 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 |-----------|--------------|-----------|
 | I | 🟦<br>🟦<br>🟦<br>🟦 | 🟦 (Blue Square) |
 | O | 🟨🟨<br>🟨🟨 | 🟨 (Yellow Square) |
-| T | 🟪🟪🟪<br>⬜🟪⬜ | 🟪 (Purple Square) |
-| S | ⬜🟩🟩<br>🟩🟩⬜ | 🟩 (Green Square) |
-| Z | 🟥🟥⬜<br>⬜🟥🟥 | 🟥 (Red Square) |
-| J | ⬜🟫<br>⬜🟫<br>🟫🟫 | 🟫 (Brown Square) |
-| L | 🟧⬜<br>🟧⬜<br>🟧🟧 | 🟧 (Orange Square) |
+| T | 🟪🟪🟪<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟪 | 🟪 (Purple Square) |
+| S | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟩🟩<br>🟩🟩 | 🟩 (Green Square) |
+| Z | 🟥🟥<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟥🟥 | 🟥 (Red Square) |
+| J | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟫<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟫<br>🟫🟫 | 🟫 (Brown Square) |
+| L | 🟧<br>🟧<br>🟧🟧 | 🟧 (Orange Square) |
 
 ---
 
