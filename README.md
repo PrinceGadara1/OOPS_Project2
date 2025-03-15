@@ -2,7 +2,7 @@
 
 Made using **C++** with **OOP Concepts**
 
-## 📝 Description
+## 📝 Descriptio
 
 This is a **classic Tetris Game** implemented in **C++** using **Object-Oriented Programming (OOP) concepts**. The game runs in the console and features **smooth gameplay**, **rotating Tetrominoes**, and an increasing difficulty level as you progress. 🧩✨
 
