@@ -1,6 +1,3 @@
-# OOPS_Project2
-Made using C++ with OOPS' Concepts
-
 # 🎮 Tetris Game Project
 
 Made using **C++** with **OOP Concepts**
@@ -127,12 +124,17 @@ To compile and run the game in **Windows**:
 
 ---
 
-## 👨‍💻 Creators
-
-- **Prince Gadara**
-- **Shubh Goyani**
-- **Kush Gandhi**
-- **Jay Vaghela**
+## Creators
+- [Prince Gadara](https://github.com/PrinceGadara1)
+- [Jay Vaghela](https://github.com/202401237)
+- [Kush Gandhi](https://github.com/kushgandhi123) 
+- [Shubh Goyani](https://github.com/Shubh-Goyani)
+- **For Contributing in This Game**:
+   1. Fork the repository.
+   2. Create a new branch: `git checkout -b feature-name`.
+   3. Make your changes.
+   4. Push your branch: `git push origin feature-name`.
+   5. Create a pull request.
 
 ---
 
