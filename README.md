@@ -69,6 +69,19 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 
 ---
 
+## Tetromino Shapes & Emojis
+| Tetromino | Correct Shape | Emoji |
+|-----------|--------------|-----------|
+| I | 🟦<br>🟦<br>🟦<br>🟦 | 🟦 (Blue Square) |
+| O | 🟨🟨<br>🟨🟨 | 🟨 (Yellow Square) |
+| T | 🟪🟪🟪<br>⬜🟪⬜ | 🟪 (Purple Square) |
+| S | ⬜🟩🟩<br>🟩🟩⬜ | 🟩 (Green Square) |
+| Z | 🟥🟥⬜<br>⬜🟥🟥 | 🟥 (Red Square) |
+| J | ⬜🟫<br>⬜🟫<br>🟫🟫 | 🟫 (Brown Square) |
+| L | 🟧⬜<br>🟧⬜<br>🟧🟧 | 🟧 (Orange Square) |
+
+---
+
 ## 🕹️ How the Game Works
 
 1. **Tetrominoes** fall from the top and can be moved left, right, or rotated. 🔼◀️▶️🔽
