@@ -1,4 +1,4 @@
-# 🎮 Tetris Game Project
+ 🎮 Tetris Game Project
 
 Made using **C++** with **OOP Concepts**
 
