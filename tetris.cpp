@@ -52,7 +52,6 @@ void moveCursor(int x, int y) {
 }
 
 void displayBoard() {
-    system("cls");
     moveCursor(0, 0);
     ostringstream output;
 
@@ -115,7 +114,7 @@ void spawnPiece() {
     pieceY = 0;
     if (!isValidMove(currentPiece, pieceX, pieceY)) {
         maxx = max(maxx, score);
-        cout << "Game Over! Final Score: " << score << endl;
+        cout << "\nGame Over! Final Score: " << score << endl;
         cout << "Maximum Score: " << maxx << endl;
         cout << "Press ENTER to play again or ESC to exit..." << endl;
         while (true) {
@@ -131,13 +130,7 @@ void spawnPiece() {
                 if (key == 27) {
                     dropSpeed = 1000;
                     maxx = 0;
-                    cout << "  #####    ###    ##     ## ########     #######  ##     ## ######## ########  \n";
-                    cout << " ##   ##  ## ##   ###   ### ##          ##     ## ##     ## ##       ##     ## \n";
-                    cout << "##       ##   ##  #### #### ##          ##     ## ##     ## ##       ##     ## \n";
-                    cout << "##  #### #######  ## ### ## ######      ##     ## ##     ## ######   ########  \n";
-                    cout << "##   ##  ##   ##  ##     ## ##          ##     ##  ##   ##  ##       ##   ##   \n";
-                    cout << " ##   ## ##   ##  ##     ## ##          ##     ##   ## ##   ##       ##    ##  \n";
-                    cout << "  #####  ##   ##  ##     ## ########     #######     ###    ######## ##     ## \n";
+                    cout << "Thanks for playing!\n";
                     exit(0);
                 }
             }
@@ -146,7 +139,7 @@ void spawnPiece() {
 }
 
 void handleInput() {
-    while (_kbhit()) {
+    if (_kbhit()) {
         char key = _getch();
         int newX = pieceX, newY = pieceY;
         Tetromino newPiece = currentPiece;
@@ -166,23 +159,39 @@ void handleInput() {
 }
 
 void gameLoop() {
+    DWORD lastFall = GetTickCount();
+    const int inputFrameDelay = 10;  // Check input every 10ms
+
     while (true) {
         handleInput();
-        if (isValidMove(currentPiece, pieceX, pieceY + 1)) {
-            pieceY++;
-        } else {
-            placePiece();
-            clearLines();
-            spawnPiece();
+
+        DWORD now = GetTickCount();
+        if (now - lastFall >= (DWORD)dropSpeed) {
+            if (isValidMove(currentPiece, pieceX, pieceY + 1)) {
+                pieceY++;
+            } else {
+                placePiece();
+                clearLines();
+                spawnPiece();
+            }
+            lastFall = now;
         }
+
         displayBoard();
-        Sleep(dropSpeed);
+        Sleep(inputFrameDelay);  // Smooth input
     }
 }
 
 int main() {
     srand(time(0));
     SetConsoleOutputCP(CP_UTF8);
+
+    // Hide console cursor
+    CONSOLE_CURSOR_INFO cursorInfo;
+    GetConsoleCursorInfo(hConsole, &cursorInfo);
+    cursorInfo.bVisible = false;
+    SetConsoleCursorInfo(hConsole, &cursorInfo);
+
     spawnPiece();
     gameLoop();
     return 0;
