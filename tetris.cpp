@@ -103,7 +103,7 @@ void clearLines() {
             board.erase(board.begin() + i);
             board.insert(board.begin(), vector<string>(WIDTH, "⬜"));
             score += 100;
-            dropSpeed = max(100, dropSpeed - 100);
+            dropSpeed = max(200, dropSpeed - 100);
         }
     }
 }
