@@ -108,8 +108,8 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 To compile and run the game in **Windows**:
 
 ```sh
- g++ tetris_game.cpp -o tetris_game.exe
- ./tetris_game.exe
+ g++ tetris.cpp -o tetris.exe
+ ./tetris.exe
 ```
 
 ---
