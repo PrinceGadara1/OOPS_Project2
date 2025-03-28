@@ -35,11 +35,11 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/tetris-game.git
+   git clone https://github.com/PrinceGadara1/OOPS_Project2.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd tetris-game
+   cd OOPS_Project2
    ```
 3. Compile using g++:
    ```bash
