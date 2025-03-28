@@ -52,7 +52,7 @@ void moveCursor(int x, int y) {
 }
 
 void displayBoard() {
-    moveCursor(0, 0);
+    moveCursor(0, 3);
     ostringstream output;
 
     for (int i = 0; i < HEIGHT; i++) {
@@ -103,7 +103,7 @@ void clearLines() {
             board.erase(board.begin() + i);
             board.insert(board.begin(), vector<string>(WIDTH, "⬜"));
             score += 100;
-            dropSpeed = max(200, dropSpeed - 100);
+            dropSpeed = max(100, dropSpeed - 100);
         }
     }
 }
@@ -192,6 +192,7 @@ int main() {
     srand(time(0));
     SetConsoleOutputCP(CP_UTF8);
 
+    
     // Hide console cursor
     CONSOLE_CURSOR_INFO cursorInfo;
     GetConsoleCursorInfo(hConsole, &cursorInfo);
