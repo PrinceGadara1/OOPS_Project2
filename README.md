@@ -103,6 +103,27 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 
 ---
 
+**SCREENSHOT OF OUR TETRIS GAME**
+## **1** 
+**BEFORE ROTETION**
+
+![Screenshot 2025-03-28 142429](https://github.com/user-attachments/assets/39959eeb-34ae-41ef-83b8-79be87e3b58a)
+
+**AFTER ROTETION**
+
+![Screenshot 2025-03-28 142437](https://github.com/user-attachments/assets/9e46fbfd-f1e2-41c8-ad2f-4c3d9a66346a)
+
+## **2**
+**AFTER BLOCK REACH TOP OF GRID**
+
+![Screenshot 2025-03-28 142534](https://github.com/user-attachments/assets/4239490b-06b6-4110-8209-95339dcd771b)
+
+## **3**
+**PRESS ESCAPE KEY TO EXIT GAME**
+
+![Screenshot 2025-03-28 142549](https://github.com/user-attachments/assets/05ee7695-49fe-4f95-8c69-0ecfb48d7bac)
+
+
 ## 🔧 Compilation and Execution
 
 To compile and run the game in **Windows**:
