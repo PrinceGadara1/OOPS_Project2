@@ -103,7 +103,7 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 
 ---
 
-**SCREENSHOT OF OUR TETRIS GAME**
+**SCREENSHOTS OF OUR TETRIS GAME**
 ## **1** 
 **BEFORE ROTETION**
 
