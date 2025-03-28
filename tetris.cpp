@@ -103,7 +103,7 @@ void clearLines() {
             board.erase(board.begin() + i);
             board.insert(board.begin(), vector<string>(WIDTH, "⬜"));
             score += 100;
-            dropSpeed = max(150, dropSpeed - 100);
+            dropSpeed = max(100, dropSpeed - 100);
         }
     }
 }
@@ -125,6 +125,7 @@ void spawnPiece() {
                     dropSpeed = 1000;
                     board.assign(HEIGHT, vector<string>(WIDTH, "⬜"));
                     spawnPiece();
+                    system("cls");
                     return;
                 }
                 if (key == 27) {
