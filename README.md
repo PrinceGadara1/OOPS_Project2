@@ -105,11 +105,11 @@ This is a **Tetris Game** implemented using **C++** for **console-based gameplay
 
 **SCREENSHOTS OF OUR TETRIS GAME**
 ## **1** 
-**BEFORE ROTETION**
+**BEFORE ROTATION**
 
 ![Screenshot 2025-03-28 142429](https://github.com/user-attachments/assets/39959eeb-34ae-41ef-83b8-79be87e3b58a)
 
-**AFTER ROTETION**
+**AFTER ROTATION**
 
 ![Screenshot 2025-03-28 142437](https://github.com/user-attachments/assets/9e46fbfd-f1e2-41c8-ad2f-4c3d9a66346a)
 
